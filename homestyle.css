@@ -190,6 +190,16 @@ details p {
     text-align: justify;
     hyphens: auto;
 }
+.paper-status {
+    display: inline-block;
+    margin: 0.25rem 0 0;
+    padding: 0.05rem 0.5rem;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    color: var(--muted);
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.72rem;
+}
 .paper-links {
     display: flex;
     gap: 1rem;
@@ -199,33 +209,10 @@ details p {
     font-weight: 500;
 }
 
-/* Dated entries (teaching, experience, education) */
-.institution {
-    margin: 0.9rem 0 0.3rem;
-    font-weight: 600;
-}
-.entries {
-    margin: 0 0 0.5rem;
-    padding: 0;
-    list-style: none;
-}
-.entries li {
-    display: flex;
-    justify-content: space-between;
-    gap: 1.5rem;
-    padding: 0.2rem 0;
-}
-.when {
-    flex-shrink: 0;
-    color: var(--muted);
-    font-size: 0.92rem;
-    text-align: right;
-}
-
 /* References */
 .refs {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.25rem 2rem;
 }
 .ref p { margin: 0 0 0.2rem; font-size: 0.95rem; }
@@ -257,6 +244,4 @@ address { font-style: normal; }
     }
     .headshot { width: 140px; height: 140px; }
     h1 { font-size: 2rem; }
-    .entries li { flex-direction: column; gap: 0; padding: 0.35rem 0; }
-    .when { text-align: left; }
 }
