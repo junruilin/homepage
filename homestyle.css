@@ -85,6 +85,7 @@ p { margin: 0 0 0.8rem; }
     align-items: center;
     padding: 3rem 0 1.5rem;
 }
+.hero-text { min-width: 0; }
 .headshot {
     width: 190px;
     height: 190px;
@@ -160,6 +161,7 @@ h2 {
     font-weight: 600;
     font-size: 1.05rem;
 }
+/* Add class="jmp" to a paper's <article> to highlight it as the job market paper */
 .jmp {
     padding: 1rem 1.15rem;
     background: var(--surface);
