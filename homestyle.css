@@ -246,4 +246,5 @@ address { font-style: normal; }
     }
     .headshot { width: 140px; height: 140px; }
     h1 { font-size: 2rem; }
+    details p { text-align: left; }
 }
